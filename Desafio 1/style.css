@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat' sans-serif;
+}
+
+body{
+  margin: 20px;
+}
+
+h1{
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+}
+
+input{
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbbb;
+}
+
+input:focus {
+    border: 1px solid #bbbb;
+    outline: none; 
+}
+
+button{
+  padding: 5px;
+  border: 1px solid #ffa2b3;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: pink;;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover{
+  background: #ffa2b3;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  margin: 5px 0px;
+  cursor: pointer;
+}
